@@ -17,7 +17,7 @@ jobs:
       - name: Extract JARVIS project
         run: |
           mkdir project
-          unzip -q JARVIS_V1_Android_Fixed_Project.zip -d project
+          unzip -q JARVIS_V1_Android_Fixed_Project__.zip -d project
           find project -maxdepth 3 -type f | head -50
 
       - name: Set up Java
